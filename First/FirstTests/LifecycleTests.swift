@@ -31,6 +31,9 @@ class LifecycleTests: XCTestCase {
         print("Starting test.")
         
         addTeardownBlock {
+            // Examples of stuff to teardown could include:
+            //  Close a file that needed to be opened for the test
+            //  Delete some data that was written during the test
             print("In FIRST addTearDown block")
         }
         
@@ -41,6 +44,11 @@ class LifecycleTests: XCTestCase {
         }
         
         print("Reached end of test. Finishing up...")
+    }
+    
+    func testSecondTest() {
+        print("Began Second test")
+        print("Completed Second test")
     }
 
     
