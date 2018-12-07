@@ -9,7 +9,7 @@
 import XCTest
 @testable import First
 
-class TemperatiureConverterTests: XCTestCase {
+class TemperatureConverterTests: XCTestCase {
 
     var sut: TemperatureConverter!
     
@@ -42,7 +42,7 @@ class TemperatiureConverterTests: XCTestCase {
         
         let output = sut.convertToCelsius(fahrenheit: input) // Act
         
-        XCTAssertEqual(output, 0) // Assert
+        XCTAssertEqual(output, 0.0, accuracy: 0.000001, " celsius") // Assert
     }
     
     func test212FahrenheitIs100Celsius() {
@@ -50,7 +50,15 @@ class TemperatiureConverterTests: XCTestCase {
         
         let output = sut.convertToCelsius(fahrenheit: input)
         
-        XCTAssertEqual(output, 100)
+        XCTAssertEqual(output, 100, accuracy: 0.000001, " celsius")
+    }
+    
+    func test100FahrenheitIs37Celsius() {
+        let input = 100.0
+        
+        let celsius = sut.convertToCelsius(fahrenheit: input)
+        
+        XCTAssertEqual(celsius, 37.777777, accuracy: 0.000001, " celsius")
     }
     
     
