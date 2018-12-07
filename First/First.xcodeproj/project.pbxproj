@@ -14,6 +14,8 @@
 		ED1FC1D521BA6E2000002FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC1D321BA6E2000002FA8 /* LaunchScreen.storyboard */; };
 		ED1FC1E021BA6E2100002FA8 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1DF21BA6E2100002FA8 /* FirstTests.swift */; };
 		ED1FC1EB21BA6E3B00002FA8 /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1EA21BA6E3B00002FA8 /* Hater.swift */; };
+		ED1FC21921BAF4DA00002FA8 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */; };
+		ED1FC21D21BAF57F00002FA8 /* TemperatiureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		ED1FC1DF21BA6E2100002FA8 /* FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTests.swift; sourceTree = "<group>"; };
 		ED1FC1E121BA6E2100002FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED1FC1EA21BA6E3B00002FA8 /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
+		ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatiureConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				ED1FC1D321BA6E2000002FA8 /* LaunchScreen.storyboard */,
 				ED1FC1D621BA6E2000002FA8 /* Info.plist */,
 				ED1FC1EA21BA6E3B00002FA8 /* Hater.swift */,
+				ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		ED1FC1DE21BA6E2100002FA8 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */,
 				ED1FC1DF21BA6E2100002FA8 /* FirstTests.swift */,
 				ED1FC1E121BA6E2100002FA8 /* Info.plist */,
 			);
@@ -203,6 +209,7 @@
 				ED1FC1CD21BA6E1B00002FA8 /* ViewController.swift in Sources */,
 				ED1FC1CB21BA6E1B00002FA8 /* AppDelegate.swift in Sources */,
 				ED1FC1EB21BA6E3B00002FA8 /* Hater.swift in Sources */,
+				ED1FC21921BAF4DA00002FA8 /* TemperatureConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1FC21D21BAF57F00002FA8 /* TemperatiureConverterTests.swift in Sources */,
 				ED1FC1E021BA6E2100002FA8 /* FirstTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
