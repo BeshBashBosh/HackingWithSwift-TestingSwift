@@ -33,18 +33,24 @@ class FirstTests: XCTestCase {
     
     func testHaterStartsNicely() {
         let hater = Hater()
-        XCTAssertFalse(hater.hating)
+        XCTAssertFalse(hater.hating, "New Haters should not be hating.")
     }
     
     func testHaterHadAGoodDay() {
+        // Arrange
         var hater = Hater()
+        // Act
         hater.hadAGoodDay()
+        // Assert
         XCTAssertFalse(hater.hating)
     }
     
     func testHaterHadABadDay() {
+        // Given
         var hater = Hater()
+        // When
         hater.hadABadDay()
+        // Then
         XCTAssertTrue(hater.hating)
     }
 
