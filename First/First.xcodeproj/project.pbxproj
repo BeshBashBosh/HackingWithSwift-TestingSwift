@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2785DA21C02AEE00C7B1B8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2785D921C02AEE00C7B1B8 /* Game.swift */; };
+		1B2785DC21C02B0400C7B1B8 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2785DB21C02B0400C7B1B8 /* GameTests.swift */; };
 		ED1FC1CB21BA6E1B00002FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1CA21BA6E1B00002FA8 /* AppDelegate.swift */; };
 		ED1FC1CD21BA6E1B00002FA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1CC21BA6E1B00002FA8 /* ViewController.swift */; };
 		ED1FC1D021BA6E1B00002FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC1CE21BA6E1B00002FA8 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2785D921C02AEE00C7B1B8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1B2785DB21C02B0400C7B1B8 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		ED1FC1C721BA6E1B00002FA8 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1FC1CA21BA6E1B00002FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1FC1CC21BA6E1B00002FA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 				ED1FC1D621BA6E2000002FA8 /* Info.plist */,
 				ED1FC1EA21BA6E3B00002FA8 /* Hater.swift */,
 				ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */,
+				1B2785D921C02AEE00C7B1B8 /* Game.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 				ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */,
 				ED1FC1DF21BA6E2100002FA8 /* FirstTests.swift */,
 				ED1FC1E121BA6E2100002FA8 /* Info.plist */,
+				1B2785DB21C02B0400C7B1B8 /* GameTests.swift */,
 			);
 			path = FirstTests;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1FC1CD21BA6E1B00002FA8 /* ViewController.swift in Sources */,
+				1B2785DA21C02AEE00C7B1B8 /* Game.swift in Sources */,
 				ED1FC1CB21BA6E1B00002FA8 /* AppDelegate.swift in Sources */,
 				ED1FC1EB21BA6E3B00002FA8 /* Hater.swift in Sources */,
 				ED1FC21921BAF4DA00002FA8 /* TemperatureConverter.swift in Sources */,
@@ -223,6 +230,7 @@
 				ED1FC21D21BAF57F00002FA8 /* TemperatiureConverterTests.swift in Sources */,
 				ED1FC21F21BB029000002FA8 /* LifecycleTests.swift in Sources */,
 				ED1FC1E021BA6E2100002FA8 /* FirstTests.swift in Sources */,
+				1B2785DC21C02B0400C7B1B8 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
