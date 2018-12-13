@@ -10,25 +10,19 @@ import XCTest
 @testable import First
 
 class ViewControllerTests: XCTestCase {
-
-//    var sut: ViewController!
     
     override func setUp() {
-//        sut = ViewController()
-//        sut.loadViewIfNeeded()
-//        sut.viewDidLoad()
     }
 
     override func tearDown() {
-       // sut = nil
     }
 
-    func testViewControllerButtonStroyBoardLinkExists() {
-        let sut = ViewController()
-        sut.loadViewIfNeeded()
-        sut.viewWillAppear(false)
-        XCTAssertNotNil(sut.button, "Button not linked up or initialised correctly in ViewController")
-    }
+//    func testViewControllerButtonStroyBoardLinkExists() {
+//        let sut = ViewController()
+//        sut.loadViewIfNeeded()
+//        sut.viewWillAppear(false)
+//        XCTAssertNotNil(sut.button, "Button not linked up or initialised correctly in ViewController")
+//    }
     
 //    func testViewControllerLabelStroyBoardLinkExists() {
 //        XCTAssertNotNil(sut.label, "Label not linked up or initialised correctly in ViewController")
