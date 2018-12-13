@@ -79,5 +79,18 @@ class GameTests: XCTestCase {
         let game = Game(name: "Exploding Monkeys")
         XCTAssertNoThrow(try game.play())
     }
+    
+//    func testDeadStormRisingThrows() throws {
+//        let game = Game(name: "Dead Storm Rising")
+//        try game.play()
+//    }
+    
+    func testCrashyPlaneDoesntThrows() throws {
+        let game = Game(name: "Crashy Plane")
+        try game.play()
+    }
 
 }
+
+
+

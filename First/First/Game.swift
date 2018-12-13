@@ -8,10 +8,16 @@
 
 import Foundation
 
-enum GameError: Error {
+enum GameError: LocalizedError {
     case notPurchased
     case notInstalled
     case parentalControlsDisallowed
+}
+
+extension LocalizedError {
+    var errorDescription: String? {
+        return "\(self)"
+    }
 }
 
 struct Game {
