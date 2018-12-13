@@ -18,7 +18,7 @@ class AsyncTests: XCTestCase {
     override func tearDown() {
     }
     
-    func testPrimesUpTo100ShouldBe0() {
+    func testPrimesUpTo100ShouldBe25() {
         // Arrange
         let maxCount = 100
         let expectation = XCTestExpectation(description: "Calculates primes up to \(maxCount)")
@@ -31,5 +31,22 @@ class AsyncTests: XCTestCase {
         
         wait(for: [expectation], timeout: 10)
     }
+    
+    func testProgressPrimesCalculatorUpTo100ShouldBe25() {
+        // Arrange
+        let maxCount = 100
+        // Act
+        let progress = AsyncPrimeCalculator.calculateWithProgress(upTo: maxCount) {
+            // Assert
+            XCTAssertEqual($0.count, 25)
+        }
+
+        // Async Assert considerations
+        let predicate = NSPredicate(format: "%@.completedUnitCount == %@",
+                                 argumentArray: [progress, maxCount])
+        let expectation = XCTNSPredicateExpectation(predicate: predicate, object: progress)
+        wait(for: [expectation], timeout: 10)
+    }
+
 
 }
