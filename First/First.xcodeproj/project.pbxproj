@@ -19,6 +19,7 @@
 		ED1FC21921BAF4DA00002FA8 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */; };
 		ED1FC21D21BAF57F00002FA8 /* TemperatiureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */; };
 		ED1FC21F21BB029000002FA8 /* LifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC21E21BB029000002FA8 /* LifecycleTests.swift */; };
+		ED1FC22121C266C600002FA8 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC22021C266C600002FA8 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		ED1FC21821BAF4DA00002FA8 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatiureConverterTests.swift; sourceTree = "<group>"; };
 		ED1FC21E21BB029000002FA8 /* LifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleTests.swift; sourceTree = "<group>"; };
+		ED1FC22021C266C600002FA8 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		ED1FC1DE21BA6E2100002FA8 /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				ED1FC22021C266C600002FA8 /* ViewControllerTests.swift */,
 				ED1FC21E21BB029000002FA8 /* LifecycleTests.swift */,
 				ED1FC21C21BAF57F00002FA8 /* TemperatiureConverterTests.swift */,
 				ED1FC1DF21BA6E2100002FA8 /* FirstTests.swift */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1FC22121C266C600002FA8 /* ViewControllerTests.swift in Sources */,
 				ED1FC21D21BAF57F00002FA8 /* TemperatiureConverterTests.swift in Sources */,
 				ED1FC21F21BB029000002FA8 /* LifecycleTests.swift in Sources */,
 				ED1FC1E021BA6E2100002FA8 /* FirstTests.swift in Sources */,
