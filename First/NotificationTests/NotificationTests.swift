@@ -28,5 +28,22 @@ class NotificationTests: XCTestCase {
         // Assert
         wait(for: [expectation], timeout: 3)
     }
+    
+    func testUserUpgradedToGoldPostNotification() {
+        // Arrange
+        let user = User()
+        let expectation = XCTNSNotificationExpectation(name: User.upgradedNotificationWithInfo)
+        expectation.handler = { notification -> Bool in
+            guard let level = notification.userInfo?["level", default: "Free"] as? String else { return false }
+            return level.lowercased() == "gold" ? true : false
+        }
+        
+        // Act
+        user.upgradeWithInfo()
+        
+        // Assert
+        wait(for: [expectation], timeout: 3)
+        
+    }
 
 }
