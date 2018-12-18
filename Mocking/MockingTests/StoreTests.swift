@@ -24,6 +24,6 @@ class StoreTests: XCTestCase {
         
         _ = store.buy(product: "War of the Worlds")
         
-        XCTAssertTrue(store.wasAssertionSuccessful)
+        XCTAssertFalse(store.wasAssertionSuccessful, "Should not be able to buy from store without a user")
     }
 }

@@ -12,11 +12,11 @@ import Foundation
 
 class StoreMock: Store {
     var wasAssertionSuccessful = false
-    
-    override func assert(_ condition: () -> Bool,
-                       _ message: () -> String,
-                       file: StaticString = #file,
-                       linet: UInt = #line) {
+
+    override func assert(_ condition: @autoclosure () -> Bool,
+                        _ message: @autoclosure () -> String = String(),
+                        file: StaticString = #file, line: UInt = #line) {
         wasAssertionSuccessful = condition()
     }
+    
 }
